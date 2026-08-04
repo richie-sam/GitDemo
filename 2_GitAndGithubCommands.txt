@@ -42,4 +42,4 @@ Push Request :
     >> git push
 
 
-    >>
+    >> git checkout -b "day1Branch"
