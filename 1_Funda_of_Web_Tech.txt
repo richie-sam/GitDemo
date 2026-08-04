@@ -54,7 +54,7 @@ Protocol:
 
 Service/Domain Name:
     >> Unique Identifier
-        >> Eg. Google
+        >> Example. Google
 
 
 Sub-Domain Name:
