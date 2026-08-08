@@ -41,5 +41,11 @@ Push Request :
     >> git commit -m "Commit Message"
     >> git push
 
-
+Create New Branch :
     >> git checkout -b "day1Branch"
+
+Switch the Branch :
+    >> git checkout "branchNameWhichisNeededtoSwitch"
+
+Clone the Application:
+    >> git clone https://github.com/richie-sam/GitDemo.git 
