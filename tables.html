@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+</head>
+<body>
+    <table border=""> <!-- TABLE: Table -->
+        <!-- <table border=""> TABLE: Table -->
+
+        <caption>Table Caption</caption> <!-- CAPTION: Table Caption -->
+        <colgroup> <!-- COLGROUP: Table Column Group -->
+                <col span="2" style="background-color: lightblue;">
+                <col span="2" style="background-color: rgb(55, 28, 164);">
+        </colgroup>
+
+        <thead> <!-- THEAD: Table Head -->
+            <tr> <!-- TR: Table Row -->
+                <th>Header 1</th> <!-- TH: Table Header -->
+                <th>Header 2</th>
+                <th>Header 3</th>
+            </tr>
+
+        <tbody> <!-- TBODY: Table Body -->  
+            <tr>
+                <td rowspan="2">Row 1, Cell 1</td> <!-- TD: Table Data -->
+                <td colspan="2">Row 1, Cell 2</td>
+                <td>Row 1, Cell 3</td>
+            </tr>
+            <tr>
+                <td>Row 2, Cell 1</td>
+                <td>Row 2, Cell 2</td>
+                <td>Row 2, Cell 3</td>
+            </tr>
+
+        </tbody>    
+
+        <tbody> <!-- TBODY: Table Body -->
+            <tr>
+                <td>Row 3, Cell 1</td>
+                <td>Row 3, Cell 2</td>
+                <td>Row 3, Cell 3</td>
+            </tr>
+        </tbody>
+        <tfoot> <!-- TFOOT: Table Footer -->
+            <tr>
+                <td>Footer 1</td>
+                <td>Footer 2</td>
+                <td>Footer 3</td>
+            </tr>
+        </tfoot>    
+    </table>
+    <!-- SHORTCUT tr>td*4 -->
+</body>
+</html>
